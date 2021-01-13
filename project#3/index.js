@@ -9,11 +9,6 @@ for(var i=0; i<document.querySelectorAll(".drum").length; i++ )
   });
 }
 
-// for key press on keyboard
-document.addEventListener("keypress",function(event){
-    makeSound(event.key);
-    btnAnimation(event.key);
-});
 
 function btnAnimation(key){
   document.querySelector("." + key).classList.add("pressed");
