@@ -3,10 +3,12 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+body{
+  padding-top:60px;
+  background-color: #101820FF;
+}
 section {
   height: 100vh;
-  background-color: #101820FF;
   font-family: sans-serif;
 }
 .score {
